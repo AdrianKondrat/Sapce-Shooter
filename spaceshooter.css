@@ -1,0 +1,26 @@
+body {
+	/* background-image: url("gamemachine.jpg"); */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-position: center;
+	background-color: navy;
+  }
+
+canvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: transparent;
+}
+
+#bg{
+	z-index: -2;
+}
+
+#main {
+	z-index: -1;
+}
+
+#ship {
+	z-index: 0;
+}
